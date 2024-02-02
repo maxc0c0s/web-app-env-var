@@ -24,4 +24,4 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         push: true
-        tags: ${{ vars.DOCKER_USERNAME }}/web-app-env-var:1.0.0
+        tags: ${{ vars.DOCKER_USERNAME }}/web-app-env-var:1.0.1
